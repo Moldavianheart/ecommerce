@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from Mpanel.models import Account,UserSession,PasswordReset
+
+admin.site.register(Account)
+admin.site.register(UserSession)
+admin.site.register(PasswordReset)
