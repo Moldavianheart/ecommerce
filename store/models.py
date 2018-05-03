@@ -15,3 +15,14 @@ class ProductImage(models.Model):
 	image = models.CharField(max_length=255)
 	thumb = models.CharField(max_length=255)
 	date  = models.DateTimeField()
+
+class Category(models.Model):
+	title = models.CharField(max_length=255)
+	parent_id = models.IntegerField()
+	list_order = models.IntegerField()
+	slug = models.SlugField()
+	date  = models.DateTimeField()
+
+
+
+
