@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ba60f7-0320-470b-bfc0-f7d63d569d2b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mpanel/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mpanel/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecomstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecomstore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecomstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecomstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mpanel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mpanel/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mpanel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mpanel/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,18 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mpanel/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecomstore/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,7 +29,103 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mpanel/templates/mpanel/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-331">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+              <folding>
+                <element signature="e#3671#3677#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="django-admin" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/bin/django-admin">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="django-admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/bin/django-admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="easy_install" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/bin/easy_install">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="easy_install-3.6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/bin/easy_install-3.6">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pip" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/bin/pip">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pip3.6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/bin/pip3.6">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pip3" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/bin/pip3">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DjangoModelDependency/#ecomstore" pinned="false" current-in-tab="true">
+        <entry file="uml://DjangoModelDependency/#ecomstore">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DjangoModelDependency</ID>
+              <OriginalElement>#ecomstore</OriginalElement>
+              <nodes>
+                <node x="274.0" y="82.0">Mpanel.models.UserSession</node>
+                <node x="2.0" y="92.0">Mpanel.models.PasswordReset</node>
+                <node x="157.0" y="0.0">Mpanel.models.Account</node>
+                <node x="23.0" y="169.0">store.models.Product</node>
+                <node x="2.0" y="307.0">store.models.ProductImage</node>
+                <node x="296.0" y="164.0">store.models.Category</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="store.models.ProductImage" target="store.models.Product">
+                  <point x="0.0" y="-16.0" />
+                  <point x="0.0" y="16.0" />
+                </edge>
+                <edge source="Mpanel.models.PasswordReset" target="Mpanel.models.Account">
+                  <point x="0.0" y="-16.0" />
+                  <point x="127.0" y="57.0" />
+                  <point x="207.75" y="57.0" />
+                  <point x="-50.75" y="16.0" />
+                </edge>
+                <edge source="Mpanel.models.UserSession" target="Mpanel.models.Account">
+                  <point x="0.0" y="-16.0" />
+                  <point x="390.0" y="57.0" />
+                  <point x="309.25" y="57.0" />
+                  <point x="50.75" y="16.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="253.0" y="136.5" />
+              <SelectedNodes>
+                <node>store.models.Category</node>
+              </SelectedNodes>
+              <Categories />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +135,10 @@
       <list>
         <option value="$PROJECT_DIR$/ecomstore/urls.py" />
         <option value="$PROJECT_DIR$/Mpanel/middlewares.py" />
+        <option value="$PROJECT_DIR$/Mpanel/urls.py" />
+        <option value="$PROJECT_DIR$/Mpanel/templates/mpanel/login.html" />
+        <option value="$PROJECT_DIR$/Mpanel/templates/mpanel/register.html" />
+        <option value="$PROJECT_DIR$/Mpanel/views.py" />
       </list>
     </option>
   </component>
@@ -66,9 +152,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
+    <option name="x" value="150" />
     <option name="y" value="27" />
-    <option name="width" value="1400" />
+    <option name="width" value="1390" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -93,6 +179,23 @@
               <item name="ecomstore" type="462c0819:PsiDirectoryNode" />
               <item name="Mpanel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ecomstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecomstore" type="462c0819:PsiDirectoryNode" />
+              <item name="Mpanel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecomstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecomstore" type="462c0819:PsiDirectoryNode" />
+              <item name="Mpanel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mpanel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecomstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -101,6 +204,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -184,7 +288,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="27" width="1400" height="1000" extended-state="0" />
+    <frame x="150" y="27" width="1390" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -192,9 +296,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295838" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295838" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22302158" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -208,9 +312,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="7" weight="0.3295838" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="7" weight="0.3295838" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,12 +352,69 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mpanel/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mpanel/templates/mpanel/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mpanel/templates/mpanel/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mpanel/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mpanel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -264,13 +425,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mpanel/middlewares.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-124994974/_blake2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="-3359" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-124994974/bcrypt/_bcrypt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mpanel/templates/mpanel/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#3671#3677#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/django-admin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/django-admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/easy_install">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/easy_install-3.6">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/pip">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/pip3.6">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/pip3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://DjangoModelDependency/#ecomstore">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#ecomstore</OriginalElement>
+          <nodes>
+            <node x="274.0" y="82.0">Mpanel.models.UserSession</node>
+            <node x="2.0" y="92.0">Mpanel.models.PasswordReset</node>
+            <node x="157.0" y="0.0">Mpanel.models.Account</node>
+            <node x="23.0" y="169.0">store.models.Product</node>
+            <node x="2.0" y="307.0">store.models.ProductImage</node>
+            <node x="296.0" y="164.0">store.models.Category</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="store.models.ProductImage" target="store.models.Product">
+              <point x="0.0" y="-16.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="Mpanel.models.PasswordReset" target="Mpanel.models.Account">
+              <point x="0.0" y="-16.0" />
+              <point x="127.0" y="57.0" />
+              <point x="207.75" y="57.0" />
+              <point x="-50.75" y="16.0" />
+            </edge>
+            <edge source="Mpanel.models.UserSession" target="Mpanel.models.Account">
+              <point x="0.0" y="-16.0" />
+              <point x="390.0" y="57.0" />
+              <point x="309.25" y="57.0" />
+              <point x="50.75" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="253.0" y="136.5" />
+          <SelectedNodes>
+            <node>store.models.Category</node>
+          </SelectedNodes>
+          <Categories />
         </state>
       </provider>
     </entry>
